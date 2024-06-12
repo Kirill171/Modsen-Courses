@@ -1,11 +1,11 @@
 // Напишите функцию, которая принимает массив в качестве параметра и выдает пользовательскую ошибку, если массив пуст.
 
-function isEmpty(massive) {
+function isEmpty(array) {
     try{
-        if(massive.length === 0){
+        if(array.length === 0){
             throw new Error('Массив не должен быть пустым!');
         } else {
-            console.log(`Массив подходит условию. Массив: ${massive}.`);
+            console.log(`Массив подходит условию. Массив: ${array}.`);
         }
     } catch(e){
         console.log(`Массив пустой. ${e.message}`);
