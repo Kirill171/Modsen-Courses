@@ -1,0 +1,39 @@
+#Task2 {
+    display: flex;
+}
+
+.button {
+    margin: 20px auto;
+    background-color: #00d612;
+    width: fit-content;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+    user-select: none;
+}
+
+.button:hover {
+    background-color: #00920c;
+    cursor: pointer;
+}
+
+.button-red {
+    margin: 20px auto;
+    background-color: #ff0000;
+    width: fit-content;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+    user-select: none;
+}
+
+.button-red:hover {
+    background-color: #9c0000;
+    cursor: pointer;
+}

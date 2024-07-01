@@ -1,0 +1,39 @@
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# Production build
+/build
+/dist
+
+# npm debugging logs
+npm-debug.log*
+
+# Yarn integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# IDE files
+.idea
+.vscode
+
+# Mac OSX directory attributes
+.DS_Store
+
+# Jest coverage
+/coverage
+
+# Testing
+/coverage
+/.nyc_output
+
+# Editor directories
+/.idea
+/.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

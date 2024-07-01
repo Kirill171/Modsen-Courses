@@ -1,0 +1,9 @@
+#Task3 {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+
+#form {
+    margin-top: 20px;
+}
