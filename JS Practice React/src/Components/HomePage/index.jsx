@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './index.css';
 
-export default function Index() {
+export default function index() {
   return (
     <div className='nav'>
       <Link className='button-link' to="/Task1">Task1</Link>
