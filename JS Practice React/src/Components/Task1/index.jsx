@@ -20,7 +20,7 @@ const photos = [
   },
 ]
 
-export default function index() {
+export default function Task1() {
   return (
     <>
       <Button />

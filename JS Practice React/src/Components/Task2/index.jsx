@@ -6,7 +6,7 @@ import './index.css';
 // будет увеличиваться значение счетчика на единицу. Когда значение счетчика будет более 10, то цвет кнопки должен быть
 // красным, первоначальный цвет кнопки зеленый
 
-export default function index() {
+export default function Task2() {
   let [counter, SetCounter] = useState(0);
   function handleClick() {
     SetCounter(counter + 1);

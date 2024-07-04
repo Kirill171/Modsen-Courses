@@ -6,7 +6,7 @@ import './index.css';
 // значение этого поля нужно выводить в консоль после нажатия на кнопку, которая
 // реализована в форме. В задаче нужно использовать хук useState.
 
-export default function index() {
+export default function Task3() {
   const [inputValue, setInputValue] = useState('')
 
   function handleChange(e) {
